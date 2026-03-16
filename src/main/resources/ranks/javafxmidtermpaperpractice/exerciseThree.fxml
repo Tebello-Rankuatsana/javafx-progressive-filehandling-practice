@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ranks.javafxmidtermpaperpractice.ExerciseThree">
+   <children>
+      <TextField fx:id="txtMessage" layoutX="99.0" layoutY="57.0" prefHeight="69.0" prefWidth="402.0" promptText="message">
+         <font>
+            <Font name="Calisto MT" size="26.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnWrite" layoutX="163.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleWrite" prefHeight="52.0" prefWidth="91.0" text="Write" />
+      <Button fx:id="btnLoad" layoutX="367.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleLoad" prefHeight="52.0" prefWidth="78.0" text="Load" />
+      <Label fx:id="lblFeedback" layoutX="95.0" layoutY="323.0" prefHeight="52.0" prefWidth="418.0" textFill="#f40a0a">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDisplay" layoutX="119.0" layoutY="139.0" prefHeight="98.0" prefWidth="358.0">
+         <font>
+            <Font name="Castellar" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

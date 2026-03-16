@@ -1,8 +1,6 @@
 package ranks.javafxmidtermpaperpractice;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class FileHandlingNoFX {
     public static void main(String[] args){
@@ -16,6 +14,15 @@ public class FileHandlingNoFX {
         }catch(IOException e){
             e.printStackTrace();
         }
-
+//        reading from the file
+        try{
+            BufferedReader br = new BufferedReader(new FileReader("person.txt"));
+            String line;
+            while((line = br.readLine()) != null){
+                System.out.println(line);
+            }
+        }catch(IOException i){
+            i.printStackTrace();
+        }
     }
 }
