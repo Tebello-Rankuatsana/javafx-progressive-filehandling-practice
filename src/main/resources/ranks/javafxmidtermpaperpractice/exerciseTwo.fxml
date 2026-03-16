@@ -13,6 +13,7 @@
             <Font name="Bernard MT Condensed" size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="btnWrite" layoutX="238.0" layoutY="186.0" mnemonicParsing="false" onAction="#handleWrite" prefHeight="66.0" prefWidth="122.0" text="Write" />
+      <Button fx:id="btnWrite" layoutX="239.0" layoutY="152.0" mnemonicParsing="false" onAction="#handleWrite" prefHeight="66.0" prefWidth="122.0" text="Write" />
+      <Button fx:id="btnRead" layoutX="239.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleRead" prefHeight="66.0" prefWidth="122.0" text="Read" />
    </children>
 </AnchorPane>
