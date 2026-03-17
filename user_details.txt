@@ -1,20 +1,32 @@
-just
-ranks
 ______________________________
 Name: don
 Surname: toliver
+Gender: Male
 ______________________________
 Name: Naruto
 Surname: Uzumaki
-______________________________
+Gender: Male
 ______________________________
 Name: Naruto
 Surname: Uzumaki
-______________________________
+Gender: Male
 ______________________________
 Name: Itachi
 Surname: Uchiha
+Gender: Male
 ______________________________
 Name: Ichigo
 Surname: Kurosaki
+______________________________
+Name: Light
+Surname: Yagami
+Gender: Male
+______________________________
+Name: Roronoa
+Surname: Zoro
+Gender: Male
+______________________________
+Name: Nico
+Surname: Robin
+Gender: Female
 ______________________________

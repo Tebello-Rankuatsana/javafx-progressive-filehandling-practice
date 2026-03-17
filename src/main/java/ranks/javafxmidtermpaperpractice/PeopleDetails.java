@@ -57,9 +57,9 @@ public class PeopleDetails {
             bw.write("Name: "+txtName.getText()+"\n");
             bw.write("Surname: "+txtSurname.getText()+"\n");
             if(rdMale.isSelected())
-                bw.write("Gender: Male");
+                bw.write("Gender: Male"+"\n");
             if(rdFemale.isSelected())
-                bw.write("Gender: Female");
+                bw.write("Gender: Female"+"\n");
             bw.write("______________________________"+"\n");
             bw.close();
         }catch(IOException e){
