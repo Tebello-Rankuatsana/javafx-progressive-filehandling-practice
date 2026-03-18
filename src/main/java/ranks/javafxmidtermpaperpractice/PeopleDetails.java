@@ -41,6 +41,7 @@ public class PeopleDetails {
         try {
             BufferedReader br = new BufferedReader(new FileReader("user_details.txt"));
             String line;
+            txtDisplay.clear();
             while((line = br.readLine()) != null){
                 txtDisplay.appendText(line+"\n");
             }
@@ -53,7 +54,6 @@ public class PeopleDetails {
     void handleSave(ActionEvent event) {
         try{
             BufferedWriter bw = new BufferedWriter(new FileWriter("user_details.txt",true));
-//            bw.write("______________________________"+"\n");
             bw.write("Name: "+txtName.getText()+"\n");
             bw.write("Surname: "+txtSurname.getText()+"\n");
             if(rdMale.isSelected())
