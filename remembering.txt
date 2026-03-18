@@ -1,0 +1,20 @@
+Name: Fredrick
+Surname: Chopin
+Gender: Male
+____________________________
+Name: Marie
+Surname: Curie
+Gender: Female
+____________________________
+Name: Matin
+Surname: Curtler
+Gender: Male
+____________________________
+Name: clear
+Surname: out
+Gender: Female
+____________________________
+Name: Darius
+Surname: Garland
+Gender: Male
+____________________________
