@@ -30,3 +30,7 @@ Name: Nico
 Surname: Robin
 Gender: Female
 ______________________________
+Name: ranks
+Surname: the goat
+Gender: Male
+______________________________
