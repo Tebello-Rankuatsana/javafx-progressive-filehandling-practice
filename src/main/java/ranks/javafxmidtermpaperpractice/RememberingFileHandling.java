@@ -81,6 +81,7 @@ public class RememberingFileHandling {
                 bw.write("Gender: Female"+"\n");
 
             bw.write("_______________________"+"\n");
+
             if(txtSurname.getText().isEmpty() || txtName.getText().isEmpty()){
                 Alert warning = new Alert(Alert.AlertType.ERROR);
                 warning.setTitle("Fill in Credentials");
