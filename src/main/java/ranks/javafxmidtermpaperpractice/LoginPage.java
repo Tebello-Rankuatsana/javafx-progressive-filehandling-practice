@@ -2,10 +2,15 @@ package ranks.javafxmidtermpaperpractice;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 import java.io.*;
 
@@ -69,6 +74,11 @@ public class LoginPage {
                 correct.setTitle("Success");
                 correct.setContentText("Login was successful!!!");
                 correct.showAndWait();
+
+                Parent root = FXMLLoader.load(getClass().getResource("People.fxml"));
+                Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+                stage.setScene(new Scene(root));
+                stage.show();
             }
             br.close();
         }catch (IOException e){
