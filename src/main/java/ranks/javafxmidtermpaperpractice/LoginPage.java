@@ -75,7 +75,7 @@ public class LoginPage {
                 correct.setContentText("Login was successful!!!");
                 correct.showAndWait();
 
-                Parent root = FXMLLoader.load(getClass().getResource("People.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("PeopleDetails.fxml"));
                 Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
                 stage.setScene(new Scene(root));
                 stage.show();
